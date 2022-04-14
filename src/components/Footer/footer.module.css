@@ -1,0 +1,76 @@
+.footerDiv{
+    margin: auto;
+    width: 86%;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    color: rgb(10,25,47);
+    padding-bottom: 45px;
+    box-shadow: 2px 2px 7px rgb(168, 168, 168);
+    margin-bottom: 50px;
+
+
+}
+
+.footBox{
+    background-color: rgb(10,25,47);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footBox p {
+    color: white;
+}
+
+.footBox a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialLine{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.emailPhone{
+    display: flex;
+    gap: 25px;
+}
+
+.socialIconLine{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.threeIcon{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width : 680px){
+    .socialLine{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        line-height: 1px;
+    }
+
+    .emailPhone{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 15px;
+    }
+
+    .socialLine{
+        justify-content: center;
+        align-items: center;
+    }
+}
